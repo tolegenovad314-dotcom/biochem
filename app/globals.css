@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f3fbff;
+  --foreground: #20313d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-manrope);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f3fbff;
+  color: #20313d;
+  font-family: var(--font-manrope), sans-serif;
+}
+
+::selection {
+  background: #c7edf7;
+  color: #17303a;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
