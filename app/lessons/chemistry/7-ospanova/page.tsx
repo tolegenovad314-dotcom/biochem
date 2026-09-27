@@ -136,5 +136,5 @@ export default function Ospanova7Page() {
         © 2026 BIOCHEM • Химия 7
       </footer>
     </main>
-    </main>
   );
+}
